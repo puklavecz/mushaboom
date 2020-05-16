@@ -1,3 +1,11 @@
 # mushaboom
-Miscellaneous functions for data analysis
-Install from GitHub :  devtools::install_github("puklavecz/mushaboom")
+
+Miscellaneous functions for data analysis and visualisation in R.
+
+## Installation
+
+Install from GitHub :
+
+```bash
+devtools::install_github("puklavecz/mushaboom")
+```
