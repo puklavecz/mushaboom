@@ -26,7 +26,7 @@ plot_data <- lme_group_plot(outcome = "var1",
                             data = DF)
 }
 \author{
-Ziga Puklavec, \email{ziga.puklavec@univie.ac.at}
+Žiga Puklavec, \email{ziga.puklavec@univie.ac.at}
 
 Jerome Olsen, \email{olsen@coll.mpg.de}
 }
