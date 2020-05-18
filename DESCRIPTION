@@ -2,4 +2,8 @@ Package: mushaboom
 Type: Package
 Title: Miscellaneous functions for data analysis and visualisation in R
 Version: 0.0.1.0
+Imports:
+    tidyverse,
+    lme4,
+    lmerTest
 RoxygenNote: 7.1.0

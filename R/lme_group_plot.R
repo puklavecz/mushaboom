@@ -15,6 +15,9 @@
 #'                             fixed = c("var2", "var3", "var4"), 
 #'                             random = "(1 | CASE)", 
 #'                             data = DF)
+#' @import tidyverse
+#' @import lme4
+#' @import lmerTest
 #' @export lme_group_plot
 lme_group_plot <- function(
   outcome = NULL,
