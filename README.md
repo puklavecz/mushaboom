@@ -1,6 +1,6 @@
 # mushaboom
 
-Miscellaneous functions for data analysis and visualisation in R.
+Miscellaneous functions for data analysis and visualisation in R
 
 ## Installation
 

@@ -1,5 +1,5 @@
 Package: mushaboom
 Type: Package
-Title: Miscellaneous functions for data analysis
+Title: Miscellaneous functions for data analysis and visualisation in R
 Version: 0.0.1.0
 RoxygenNote: 7.1.0
