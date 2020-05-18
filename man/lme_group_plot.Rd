@@ -16,11 +16,17 @@ lme_group_plot(outcome, fixed, random, data)
 \item{data}{a data frame or environment containing the variables for the lmer() model.}
 }
 \description{
-Prepare data for plotting simple effects with confidence intervals from a lme4 model.
+Prepare data for plotting mean and confidence intervals for different fixed effects groups of a lme4 model. 
+The function takes into consideration the influence of any random effects structure.
 }
 \examples{
 plot_data <- lme_group_plot(outcome = "var1", 
                             fixed = c("var2", "var3", "var4"), 
                             random = "(1 | CASE)", 
                             data = DF)
+}
+\author{
+Ziga Puklavec, \email{ziga.puklavec@univie.ac.at}
+
+Jerome Olsen, \email{olsen@coll.mpg.de}
 }
