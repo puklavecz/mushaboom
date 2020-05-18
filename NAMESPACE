@@ -2,7 +2,6 @@
 
 export(lme_group_plot)
 import(dplyr)
-import(lme4)
 import(lmerTest)
 import(magrittr)
 import(stringr)

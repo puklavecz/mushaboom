@@ -4,7 +4,6 @@ Title: Miscellaneous functions for data analysis and visualisation in R
 Version: 0.0.1.0
 Imports:
     dplyr,
-    lme4,
     lmerTest,
     magrittr,
     stringr,
