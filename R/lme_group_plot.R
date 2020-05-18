@@ -15,9 +15,13 @@
 #'                             fixed = c("var2", "var3", "var4"), 
 #'                             random = "(1 | CASE)", 
 #'                             data = DF)
-#' @import tidyverse
 #' @import lme4
 #' @import lmerTest
+#' @import tibble
+#' @import dplyr
+#' @import tidyr
+#' @import stringr
+#' @import magrittr
 #' @export lme_group_plot
 lme_group_plot <- function(
   outcome = NULL,
@@ -59,7 +63,7 @@ lme_group_plot <- function(
   n_levels <- lapply(n_levels, function(x) levels(x))
   n_levels <- prod(lengths(n_levels))
 
-  model <- lmer(formula, data = data)
+  model <- lme4::lmer(formula, data = data)
 
   output <- rownames_to_column(ls_means(model), var = "condition_name") %>%
   as_tibble() %>% 

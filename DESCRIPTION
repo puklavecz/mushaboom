@@ -3,7 +3,11 @@ Type: Package
 Title: Miscellaneous functions for data analysis and visualisation in R
 Version: 0.0.1.0
 Imports:
-    tidyverse,
+    dplyr,
     lme4,
-    lmerTest
+    lmerTest,
+    magrittr,
+    stringr,
+    tibble,
+    tidyr
 RoxygenNote: 7.1.0
