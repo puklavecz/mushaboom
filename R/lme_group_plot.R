@@ -8,7 +8,7 @@
 #' @param random random effects expression as specified in a lmer() model.
 #' @param data a data frame or environment containing the variables for the lmer() model.
 #' @return NULL 
-#' @author Žiga Puklavec, \email{ziga.puklavec@@univie.ac.at}
+#' @author Ziga Puklavec, \email{ziga.puklavec@@univie.ac.at}
 #' @author Jerome Olsen, \email{olsen@@coll.mpg.de}
 #' @examples
 #' plot_data <- lme_group_plot(outcome = "var1", 
