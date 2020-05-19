@@ -20,7 +20,6 @@
 #' @import dplyr
 #' @import tidyr
 #' @import stringr
-#' @import magrittr
 #' @export lme_group_plot
 lme_group_plot <- function(
   outcome = NULL,

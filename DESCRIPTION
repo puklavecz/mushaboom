@@ -5,7 +5,6 @@ Version: 0.0.1.0
 Imports:
     dplyr,
     lmerTest,
-    magrittr,
     stringr,
     tibble,
     tidyr

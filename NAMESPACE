@@ -3,7 +3,6 @@
 export(lme_group_plot)
 import(dplyr)
 import(lmerTest)
-import(magrittr)
 import(stringr)
 import(tibble)
 import(tidyr)
